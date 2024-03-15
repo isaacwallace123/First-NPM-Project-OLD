@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+
+<html land="en">
+    <head>
+        <title>Testing Title</title>
+
+        <style>
+            html, body {
+                margin: 0px;
+                padding: 0px;
+            }
+
+            #container {
+                display: grid;
+                grid-template-columns: 10% 90%;
+                grid-template-rows: 7.5% 87.5% 5%;
+                width: 100vw;
+                height: 100vh;
+            }
+
+            header {
+                grid-row: 1/2;
+                grid-column: 1/3;
+                background-color: aqua;
+            }
+
+            nav {
+                grid-row: 2/3;
+                grid-column: 1/2;
+                background-color: black;
+            }
+
+            main {
+                grid-row: 2/3;
+                grid-column: 2/4;
+                background-color: brown;
+            }
+
+            footer {
+                grid-row: 3/4;
+                grid-column: 1/3;
+                background-color: blueviolet;
+            }
+        </style>
+    </head>
+
+    <body>
+        <div id="container">
+            <header>
+                <h1>Testing Header</h1>
+            </header>
+    
+            <nav>
+    
+            </nav>
+    
+            <main>
+                <a href="/api/auth/steam">Login</a>
+            </main>
+    
+            <footer>
+    
+            </footer>
+        </div>
+    </body>
+</html>
